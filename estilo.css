@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.center {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+    border-bottom: 1px solid rgb(200,200,200);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 10%;
+}
+
+.logo {
+    color: #16507b;
+    position: relative;
+    top: -10px;
+    right: 50px;
+}
+
+.logo:hover {
+    color: #164f7bc9;
+    cursor: default;
+}
+
+.menu {
+    width: 90%;
+    height: 20px;
+    text-align: right;
+    position: relative;
+    top: -35px;
+}
+
+.menu a{
+    color: #124265;
+    text-decoration: none;
+    font-size: 14px;
+    margin: -40px 60px 0 0;
+    transition: 1s;
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+.menu .btn-menu {
+    background: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 8px;
+    margin-right: -150px;
+}
+
+.menu .btn-menu:hover {
+    background: #124265;
+    color: #fff;
+}
+
+.main {
+    background: url(image/Ti.jpg);
+    padding: 1px 0 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-cta {
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.main-cta h2 {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.main-cta p {
+    color: #fff;
+    font-size: 19px;
+    margin: 19px 0;
+}
+
+.main-cta a {
+    text-decoration: none;
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.5s;
+}
+
+.main-cta a:hover {
+    background: #124265;
+}
+
+.diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single {
+    background: #fff;
+    width: 24%;
+    margin-right: 1%;
+    padding: 17.6px 20px;
+    border-radius: 5px;
+}
+
+.diferencial-single i {
+    color: #124265;
+    font-size: 23px;
+}
+
+.diferencial-single h2 {
+    color: #124265;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.diferencial-single p {
+    color: #808080;
+    line-height: 30px;
+}
+
+.maquinas {
+    background: url(image/fundo.jpg);
+    padding: 1px  0 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.sobre-maquinas {
+    margin: 20px 0 10px 450px;
+    color: #c40404;
+}
+
+.img-maquinas {
+    width: 500px;
+    position: relative;
+    top: -340px;
+    right: 100px;
+    filter: grayscale(100%);
+    transform: scale(1,1);
+    transition: 1s;
+}
+
+.img-maquinas:hover {
+    transform: scale(1.1,1.1);
+    filter: grayscale(0%);
+}
+
+.sistema {
+    background: #000;
+    border-top: 5px solid #808080;
+    border-bottom: 5px solid #808080;
+}
+
+.sobre-software {
+    margin: 40px -100px;
+    color: #808080;
+}
+
+.sobre-software h2 {
+    margin: 10px 150px 20px;
+}
+
+.sobre-software p {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.sobre-software h1 {
+    font-size: 20px;
+}
+
+.img-software {
+    width: 450px;
+    height: 330px;
+    float: right;
+    position: relative;
+    top: 30px;
+    left: 200px;
+    transition: 1s;
+}
+
+.img-software:hover {
+    transform: scale(1.1,1.1);
+}
+
+.seguro {
+    background: url(image/segurança-trabalho.jpg);
+    padding: 1px  0 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-bottom: 5px solid #808080;
+}
+
+.sobre-segurança {
+    color: #fff;
+}
+
+.sobre-segurança h1 {
+    margin: 20px 0 10px 500px;
+}
+
+.sobre-segurança p {
+    margin: 0 0 10px 500px;
+}
+
+.sobre-segurança h2 {
+    margin: 10px 0 10px 500px;
+    font-size: 20px;
+}
+
+.sobre-segurança h3 {
+    margin: 10px 0 0 500px;
+    width: 400px;
+}
+
+.img-trabalho {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    top: -300px;
+    right: 100px;
+    transition: 1s;
+}
+
+.img-trabalho:hover {
+    transform: scale(1.1,1.1);
+}
+
+.segura {
+    background: url(image/fundo-informação.jpg);
+    padding: 1px  0 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    color: white;
+    border-bottom: 5px solid #808080;
+}
+
+.sobre-informação h1 {
+    margin: 40px 0 ;
+}
+.sobre-informação p {
+    width: 500px;
+}
+
+.img-informação {
+    width: 400px;
+    position: relative;
+    top: 40px;
+    right: -80px;
+    transition: 1s;
+}
+
+.img-informação:hover {
+    transform: scale(1.1,1.1);
+}
+
+.rede {
+    background: url(image/redes.jpg);
+    padding: 1px  0 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border-bottom: 5px solid #808080;
+}
+
+#titulo {
+    font-size: 20px;
+    margin: 20px 500px 20px;
+}
+
+.sobre-redes h1 {
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.topologia h1 {
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.img-topologia {
+    width: 400px;
+    border: 2px solid #000;
+}
+
+.img-switch {
+    border: 2px solid #000;
+    width: 400px;
+}
+
+.img-cabo {
+    border: 2px solid #000;
+    width: 400px;
+}
+
+.img-lan {
+    width: 400px;
+    border: 2px solid #000;
+}
+
+.pro {
+    background: url(image/programador-de-game.jpg);
+    padding: 1px  0 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.sobre-pro h1 {
+    margin: 20px 0;
+}
+
+.sobre-pro h2 {
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.matriz {
+    background: url(image/empresa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: rgb(0, 0, 0);
+}
+
+.sobre-empresa img {
+    float: left;
+    width: 450px;
+    margin: 40px 50px 0 -60px;
+}
+
+.img-matriz {
+    transform: scale(1,1);
+    transition: 1s;
+}
+
+.img-matriz:hover {
+    transform: scale(1.1,1.1);
+}
+
+.sobre-empresa h1 {
+    margin: 20px 0;
+}
+
+.sobre-empresa h2 {
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+   header {
+       width: 740px;
+       padding: 20px;
+   }
+
+   .logo {
+       font-size: 15px;
+       position: relative;
+       top: -10px;
+       left: -10px;
+   }
+
+   .menu a {
+       font-size: 12px;
+       margin:0 50px 0 -30px;
+       position: relative;
+       left: -80px;
+   }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        width: 600px;
+    }
+
+    .logo {
+        font-size: 10px;
+        position: relative;
+        top: -5px;
+    }
+
+    .menu a {
+        font-size: 8px;
+        margin: 10px 70px 0 -60px;
+        position: relative;
+        left: -200px;
+    }
+}
